@@ -7,3 +7,11 @@ describe "current_age_for_birth_year method" do
     expect(age_of_person).to eq(19)
   end
 end
+
+describe "current_age_for_birth_year method" do
+  it "returns the current year for person who birth in current year" do
+    age_of_person = current_age_for_birth_year(0)
+
+    expect(age_of_person).to eq(2003)
+  end
+end
