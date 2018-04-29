@@ -1,8 +1,9 @@
 def current_age_for_birth_year(year)
+  if(year==0)
+    return "Baby!"
+  end
   now = 2003
   subs = now - year
   subs
-  if(year==0)
-    "Baby!"
-  end
+  
 end
