@@ -5,5 +5,5 @@ def current_age_for_birth_year(year)
   now = Time.now.year
   subs = now - year
   subs
-  puts Time.now.year
+
 end
