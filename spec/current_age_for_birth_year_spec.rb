@@ -4,7 +4,7 @@ describe "current_age_for_birth_year method" do
   it "returns the age of a person based on the year of birth" do
     now = Time.now.year
     birth_year = 1993
-    answer = current_year - birth_year
+    answer = now - birth_year
 
     age_of_person = current_age_for_birth_year(birth_year)
 
